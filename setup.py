@@ -9,7 +9,7 @@ except ImportError:
 distutils.core.setup(
     name="stormed-amqp",
     version='0.1.1',
-    url='http://github.com/paolo-losi/stormed-amqp'
+    url='http://github.com/paolo-losi/stormed-amqp',
     packages = ["stormed", "stormed.method", "stormed.method.codegen"],
     author="Paolo Losi",
     author_email="paolo.losi@gmail.com",
